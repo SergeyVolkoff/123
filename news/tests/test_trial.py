@@ -3,10 +3,9 @@ from django.test import TestCase
 
 # Импортируем модель, чтобы работать с ней в тестах.
 from news.models import News
-import unittest
-
+from unittest import skip
 # Создаём тестовый класс с произвольным названием, наследуем его от TestCase.
-@unittest.skip()
+@skip(reason=0)
 class TestNews(TestCase):
     # Все нужные переменные сохраняем в атрибуты класса.
     TITLE = 'Заголовок новости'
