@@ -21,7 +21,7 @@ def author_client(author, client):
 def new():
     new = News.objects.create(
         title='Заголовок',
-        text='Текс',
+        text='Текст',
     )
     return new
 
