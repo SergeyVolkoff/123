@@ -76,6 +76,6 @@ def comments_list(new, author):
 def form_data(author):
     return {
         'title': 'Новый заголовок',
-        'author': author,
-        'text': 'New text'
+        'text': 'New text',
+        'author': author
     }
